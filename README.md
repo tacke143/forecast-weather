@@ -22,13 +22,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 ForecastWeatherControllerTest: Perform hitting API to retrieve Weather data
 
-### Break down into end to end tests
-
-getWeatherData_ShouldAddWeatherDataToModelAndRenderWeatherDataView
-
-## Deployment
-
-
 ## Built With
 
 * [Maven](https://maven.apache.org/) - mvn clean install
