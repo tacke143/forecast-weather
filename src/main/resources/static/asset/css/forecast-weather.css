@@ -122,7 +122,7 @@ section .section-title {
 }
 
 .weather .current {
-	display: flex;
+	display: grid;
 	flex-flow: row wrap;
 	background-repeat: repeat-x;
 	color: white;
