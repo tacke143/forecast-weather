@@ -45,6 +45,6 @@ getWeatherData_ShouldAddWeatherDataToModelAndRenderWeatherDataView
 
 * **Linh** - *Initial work* - Forecast Weather
 
-## License
+## Demo
+![alt text](https://i.gyazo.com/a294961e56e6e8bf65e122e8c160a6ad.jpg)
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
