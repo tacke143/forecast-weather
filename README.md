@@ -16,7 +16,7 @@ These instructions will get you a copy of the project up and running on your loc
 * Import as maven project
 * Import script to mongo DB:
 	.\sql\parameter.json
-* update:
+* In application.properties, update:
 	application.darksky.secret-key=76745b5a0f4e1bc18d1d4dbc10c28f44
 ## Running the tests
 
