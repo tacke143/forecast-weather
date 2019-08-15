@@ -32,7 +32,7 @@ ForecastWeatherControllerTest: Perform hitting API to retrieve Weather data
 
 ## Versioning
 
-1.0
+* 1.0
 
 ## Authors
 
