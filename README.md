@@ -4,7 +4,11 @@ Forecast Weather
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Display the weather results in a grid and omit any locations that fail to return data. Store the
+result data in a model, store it to Mongo as forecast of the day, and populate the record to UI using
+thymeleaf. Log all parameters passed to server. Subsequent
+call to display the weather results should check whether the today forecast record exists in database
+before triggering another REST API call to #Darksky.
 
 ### Prerequisites
 
