@@ -1,0 +1,42 @@
+{
+    "location" : "Campbell, CA",
+    "latitude" : "37.2872222",
+    "longitude" : "-121.9488889",
+    "background" : "vw-campbell.jpg",
+    "description" : "N/A"
+}
+{
+    "location" : "Omaha, NE",
+    "latitude" : "41.2586111",
+    "longitude" : "-95.9375",
+    "background" : "vw-omaha.jpg",
+    "description" : "N/A"
+}
+{
+    "location" : "Austin, TX",
+    "latitude" : "30.2669444",
+    "longitude" : "-97.7427778",
+    "background" : "vw-austin.jpg",
+    "description" : "N/A"
+}
+{
+    "location" : "Niseko, Japan",
+    "latitude" : "42.77871",
+    "longitude" : "140.66903",
+    "background" : "vw-niseko.jpg",
+    "description" : "N/A"
+}
+{
+    "location" : "Nara, Japan",
+    "latitude" : "34.676411",
+    "longitude" : "135.830063",
+    "background" : "vw-nara.jpg",
+    "description" : "N/A"
+}
+{
+    "location" : "Jakarta, Indonesia",
+    "latitude" : "-6.198291",
+    "longitude" : "106.843392",
+    "background" : "vw-jakarta.jpg",
+    "description" : "N/A"
+}

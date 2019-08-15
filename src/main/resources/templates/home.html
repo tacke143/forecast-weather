@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Forecast Weather</title>
+<link rel="stylesheet" type="text/css"
+	href="bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css"
+	href="asset/css/weather-icons.min.css" />
+<link rel="stylesheet" type="text/css"
+	href="font-awesome/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css"
+	href="asset/css/forecast-weather.css" />
+
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<!-- Team -->
+	<section id="team" class="pb-5">
+		<div class="container">
+			<h5 class="section-title h1">Forecast Weather</h5>
+			<div class="row">
+				<!-- city 1 -->
+				<div class="col-xs-12 col-sm-6 col-md-4" th:each="rec : ${data}">
+					<div> <!-- class="image-flip" ontouchstart="this.classList.toggle('hover');" -->
+						<div class="mainflip">
+							<div class="frontside">
+								<div class="card">
+									<div class="card-body text-center">
+										<div class="weather">
+											<div class="current" th:style="'background-image:url(asset/image/' + ${rec.background} + ');'">
+												<div class="info">
+													<div>&nbsp;</div>
+													<div class="city">
+														<small><small>CITY:</small></small> <span th:text="${rec.location}"/>
+													</div>
+													<div class="temp">
+														<span th:text="${rec.temperatureMin}"/>&deg; <small>F</small> - <span th:text="${rec.temperatureMax}"/>&deg; <small>F</small>
+													</div>
+													<div class="wind">
+														<small><small>WIND:</small></small> <span th:text="${rec.windSpeed}"/> km/h
+													</div>
+													<div>&nbsp;</div>
+												</div>
+												<div class="icon">
+													<span class="wi-day-sunny"></span>
+												</div>
+											</div>
+											<div class="future">
+												<div class="day">
+													<h3><span th:text="${rec.time}"/></h3>
+													<p>
+														<span class="wi-showers"></span>
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="backside">
+								<div class="card">
+									<div class="card-body text-center mt-4">
+										<h4 class="card-title">Summary</h4>
+										<p class="card-text"><span th:text="${rec.summary}"/></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Team -->
+</body>
+</html>
