@@ -14,9 +14,10 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing
 
 * Import as maven project
-* Import script to mongo DB
+* Import script to mongo DB:
 	.\sql\parameter.json
-
+* update:
+	application.darksky.secret-key=76745b5a0f4e1bc18d1d4dbc10c28f44
 ## Running the tests
 
 ForecastWeatherControllerTest: Perform hitting API to retrieve Weather data
@@ -26,7 +27,6 @@ ForecastWeatherControllerTest: Perform hitting API to retrieve Weather data
 getWeatherData_ShouldAddWeatherDataToModelAndRenderWeatherDataView
 
 ## Deployment
-
 
 
 ## Built With
